@@ -14,6 +14,4 @@ object SparkWordCount {
 	  wordsCounted.saveAsTextFile(args(1))
 	  sc.stop()						
 	}
-						
-	
 }
